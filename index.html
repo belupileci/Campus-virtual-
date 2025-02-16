@@ -7,6 +7,7 @@
     <title> Loggin  </title>
 </head>
 <body>
+    <form id="loginForm">
     <div class="formulario"> <!--este div engloba todo el resto y puede darle estilo gral-->
         <h1> Iniciar sesion </h1>
         <h4> Ingrese sus datos para iniciar sesion </h4>
@@ -25,12 +26,17 @@
         <input type="submit" value="Ingresar">
         
         <!-- Mensaje de error -->
-        <p id="ErrorMensaje" style=color:red; display:none"> Complete todos los campos </p>
-            
+        <p id="ErrorMensaje" style=color:red; display:none> complete todos los campos </p>
+    </form>
+
         <div class="registrarse">   
             <div class="remember">¿Olvido su contraseña?</div> <a target="_blank" href="#"> Haz click aqui </a> <br>
             <p>¿No tienes cuenta? <a target="_blank" href="#">Registrate</a></p>
         </div> 
     </div>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
