@@ -1,0 +1,61 @@
+body{
+    padding: 0%;
+    margin:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: linear-gradient(150deg, #5839b4, #8684c9);
+    height: 100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background: #c4c4d6;
+    border-radius: 20px;
+    width: 600px;
+}
+.formulario h1{
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 0 10px 20px 0;
+}
+
+.formulario h4 {
+    text-align: center;
+}
+
+.from-container {
+    width: 48%; 
+    height: 40px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+    display: flex;
+}
+
+.remember{
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    margin: 5px auto;
+    display: block;
+    background: #716380;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid; 
+}
+
+.registrarse{ 
+    text-align: center;
+    padding: 10px;
+
+}
